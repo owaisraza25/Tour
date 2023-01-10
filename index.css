@@ -1,0 +1,280 @@
+
+body{
+    
+}
+
+.navbar{
+
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    padding-right: 60px;
+    box-shadow: 0px 3px 7px #ccc;
+    flex-wrap: wrap;
+    background-color: white;
+    position: fixed;
+    top: 0%;
+    width: 98%;
+
+}
+
+
+
+.nav > .nav-ul{
+    list-style-type: none;
+      
+}
+
+.nav-ul > .nav-li{
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+.nav-ul > .nav-li > a{
+    font-style: bold;
+    font-size: 24px;
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   
+}
+
+.nav-li:hover{
+    /* color: green;
+    border-bottom-width: 3px;
+    border-bottom-color: green;
+    border-bottom-style: solid; */
+    background-color: rgb(235, 235, 235);
+    border: black;
+    border-radius: 25px;
+    
+
+}
+    
+i{
+    margin-right: 5px;
+    color: black;
+    font-size: 24px;
+}
+
+.booking{
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    height: 45px;
+    width: 100px;
+    box-shadow: 4px 4px 6px rgb(158, 155, 155);
+
+    
+ }
+ .booking > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    font
+ }
+
+ /* .booking > a:hover{
+    color: green;
+ } */
+
+ .booking:hover{
+    background-color: rgb(99, 96, 96);
+    border-color: rgb(99, 96, 96);
+    color: green;
+ }
+
+ .option-box{
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+.options{
+
+margin: 25px;
+height: 70px;
+width: 230px;
+font-size: 24px;
+border-style: solid;
+border-color: black;
+border-radius: 15px;
+}
+
+.options:hover{
+    background-color: black;
+    color: white; 
+    
+}
+
+.options > p{
+
+    margin-top: 8px;
+    margin-left: 2px;
+}
+
+.options > p > i{
+    margin: 15px;
+}
+
+.options > p > i:hover{
+    color: white;
+}
+
+ 
+
+
+
+
+
+ .fnid-h{
+    padding-top: 50px;
+    font-size: 42px;
+ }
+
+
+ .find-p{
+font-size: 20px;
+
+
+ }
+ .find-p1{
+    padding-bottom: 5px;
+    font-size: 20px;
+ }
+.tour-search{
+    height: 400px;
+   background-image:url(https://static.tacdn.com/img2/brand/home/homemar2022_dt_trans.webp) ;
+    background-color: rgb(231, 231, 231);
+    margin: auto;
+    text-align: center;
+    margin: 0%;
+    box-shadow: 0px 0px 8px rgb(128, 126, 126);
+ } 
+ 
+ .input{
+ 
+    height: 65px;
+    width: 700px;
+    border-radius: 50px;
+    margin: auto;
+   
+    max-width:600px;
+    min-width: 250px;
+    box-shadow: 1px 1px 4px rgb(128, 126, 126);
+ }
+ 
+ .tour-h{
+    /* background-color: black; */
+    color: rgb(0, 0, 0);
+   
+ }
+
+.ul-id > .li-id > a{
+   
+    color: black;
+ 
+}
+
+/* .a1234{
+    display: ;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .sindh img {
+    height: 300px;
+    width: 400px;
+    border-style: solid;
+    border-radius: 10px;
+  
+
+}
+
+.punjab-img{
+    height: 300px;
+    width: 400px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.kpk-img{
+    height: 300px;
+    width: 400px;
+    border-style: solid;
+    border-radius: 10px;
+} 
+
+.bloch-img{
+    height: 300px;
+    width: 400px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.destination-btn > a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.destination-btn{
+    height: 40px;
+    width: 95px;
+    background-color:rgb(8, 94, 41) ;
+    color: white;
+    margin-left: 400px;
+    border-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px rgb(71, 70, 70);
+    
+}
+
+.destination-btn:hover{
+
+    background-color: white;
+    color: rgb(5, 5, 5);  
+} */
+
+.fa:hover{
+    color: white;
+}
+
+.pak-destination{
+
+display: flex;
+justify-content: space-around;
+
+
+}
+
+
+.p-img{
+    height: 400px;
+    width: 400px;
+    /* border-style: solid;
+    border-color: #ccc;
+    border-radius: 10px; */
+    position: relative;
+}
+
+.page-img{
+    height: 300px;
+    width: 400px;
+}
+
+.b-text{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    bottom: 120px;
+    left: 20px;
+}
+
+.p-img:hover{
+    opacity: 85%;
+    
+}
