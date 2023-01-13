@@ -33,6 +33,7 @@ body{
     color: black;
     padding: 10px;
     margin: 10px;
+    transition: 0.6s;
 }
 .nav-ul > .nav-li > a{
     font-style: bold;
@@ -87,26 +88,30 @@ i{
  }
 
  .option-box{
-    margin-top: 110px;
+    margin-left: 80px;
+    margin-left: 80px;
+    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
  }
 
 .options{
-
-margin: 25px;
+margin: 8px;
 height: 70px;
-width: 230px;
-font-size: 24px;
+width: 300px;
+font-size: 16px;
 border-style: solid;
 border-color: black;
 border-radius: 15px;
+transition: 0.6s;
+
 }
 
 .options:hover{
     background-color: black;
     color: white; 
+    
     
 }
 
@@ -117,15 +122,21 @@ border-radius: 15px;
 }
 
 .options > p > i{
-    margin: 15px;
+    margin-left: 30px;
 }
 
 .options > p > i:hover{
     color: white;
 }
 
- 
+.fa-solid{
+    margin: 0%;
+}
 
+ 
+/* .fa:hover{
+    color: white;
+} */
 
 
 
@@ -146,13 +157,16 @@ font-size: 20px;
     font-size: 20px;
  }
 .tour-search{
-    height: 400px;
+    width: 1130px;
+    height: 340px;
    background-image:url(https://static.tacdn.com/img2/brand/home/homemar2022_dt_trans.webp) ;
     background-color: rgb(231, 231, 231);
-    margin: auto;
+    justify-self: left;
     text-align: center;
-    margin: 0%;
+   
+    margin-left: 100px;
     box-shadow: 0px 0px 8px rgb(128, 126, 126);
+    flex-wrap: wrap;
  } 
  
  .input{
@@ -161,7 +175,7 @@ font-size: 20px;
     width: 700px;
     border-radius: 50px;
     margin: auto;
-   
+   justify-self: center;
     max-width:600px;
     min-width: 250px;
     box-shadow: 1px 1px 4px rgb(128, 126, 126);
@@ -239,15 +253,78 @@ font-size: 20px;
     color: rgb(5, 5, 5);  
 } */
 
-.fa:hover{
-    color: white;
+
+
+.planing{
+    margin-left: 100px;
+    position: relative;
+    z-index: -1;
 }
 
+.Explore{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+
+.plan-h{
+    font-size: 55px;
+}
+
+.plan-p {
+    font-size: 40px;
+    color: black;
+}
+.exp-btn{
+    height: 60px;
+    width: 130px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    
+}
+
+/* .exp-btn:hover{
+    background-color: black;
+    color: white;
+
+} */
+
+.exp-btn > h4{
+    margin-top: 18px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pak-h{
+background-color: bisque;
+margin-top: 20px;
+}
+
+.hhhhh{
+    padding-top: 10px;
+}
+
+
 .pak-destination{
+height: 500px;
 
 display: flex;
 justify-content: space-around;
-
+align-items: center;
+border-radius: 20px;
 
 }
 
@@ -258,6 +335,7 @@ justify-content: space-around;
     /* border-style: solid;
     border-color: #ccc;
     border-radius: 10px; */
+    
     position: relative;
 }
 
