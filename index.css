@@ -18,7 +18,18 @@ body{
     position: fixed;
     top: 0%;
     width: 98%;
+    z-index: 1;
+}
 
+.main-logo{
+    height: 110px;
+    width: 180px;
+    background-color: rgb(5, 51, 5);
+    border-color: rgb(187, 137, 12);
+     border-radius: 50px; 
+    border-style: solid;
+    box-shadow: 5px 5px 7px #ccc;
+    
 }
 
 
@@ -67,6 +78,7 @@ i{
     height: 45px;
     width: 100px;
     box-shadow: 4px 4px 6px rgb(158, 155, 155);
+    transition: 0.5s;
 
     
  }
@@ -88,8 +100,8 @@ i{
  }
 
  .option-box{
-    margin-left: 80px;
-    margin-left: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
@@ -97,10 +109,10 @@ i{
  }
 
 .options{
-margin: 8px;
+margin: 10px;
 height: 70px;
 width: 300px;
-font-size: 16px;
+font-size: 18px;
 border-style: solid;
 border-color: black;
 border-radius: 15px;
@@ -115,17 +127,17 @@ transition: 0.6s;
     
 }
 
-.options > p{
+.options > b{
 
-    margin-top: 8px;
-    margin-left: 2px;
+    margin-top: 7px;
+    margin-left: 15px;
 }
 
-.options > p > i{
+.options > b > i{
     margin-left: 30px;
 }
 
-.options > p > i:hover{
+.options > b > i:hover{
     color: white;
 }
 
@@ -142,45 +154,49 @@ transition: 0.6s;
 
 
  .fnid-h{
-    padding-top: 50px;
-    font-size: 42px;
+    padding-top: 60px;
+    font-size: 46px;
  }
 
 
  .find-p{
-font-size: 20px;
+font-size: 26px;
 
 
  }
  .find-p1{
-    padding-bottom: 5px;
-    font-size: 20px;
+    font-size: 26px;
  }
 .tour-search{
-    width: 1130px;
-    height: 340px;
-   background-image:url(https://static.tacdn.com/img2/brand/home/homemar2022_dt_trans.webp) ;
+    /* width: 1600px;
+    height: 450px; */
+    min-width: 200px;
+   background-image:url(https://thumbs.dreamstime.com/z/travel-tourism-poster-resort-sightseeing-symbols-flat-vector-illustration-travel-tourism-poster-135800438.jpg) ;
     background-color: rgb(231, 231, 231);
     justify-self: left;
     text-align: center;
-   
-    margin-left: 100px;
+    margin-left: 130px;
     box-shadow: 0px 0px 8px rgb(128, 126, 126);
     flex-wrap: wrap;
  } 
  
  .input{
  
-    height: 65px;
-    width: 700px;
-    border-radius: 50px;
+    height: 60px;
+    width: 40%;
+    border-radius: 30px;
     margin: auto;
-   justify-self: center;
-    max-width:600px;
-    min-width: 250px;
+    justify-self: center;
+    /* max-width:600px;
+    min-width: 250px; */
     box-shadow: 1px 1px 4px rgb(128, 126, 126);
  }
  
+.disc{
+margin-left: 130px;
+}
+
+
  .tour-h{
     /* background-color: black; */
     color: rgb(0, 0, 0);
@@ -256,9 +272,10 @@ font-size: 20px;
 
 
 .planing{
-    margin-left: 100px;
+   
+    margin-left: 130px;
     position: relative;
-    z-index: -1;
+    
 }
 
 .Explore{
@@ -281,14 +298,15 @@ font-size: 20px;
     border-radius: 30px;
     background-color: black;
     color: white;
+    border-color: white;
     
 }
 
 /* .exp-btn:hover{
     background-color: black;
-    color: white;
+    color: white; 
 
-} */
+}  */
 
 .exp-btn > h4{
     margin-top: 18px;
@@ -311,6 +329,7 @@ font-size: 20px;
 .pak-h{
 background-color: bisque;
 margin-top: 20px;
+border-radius: 30px;
 }
 
 .hhhhh{
@@ -319,29 +338,34 @@ margin-top: 20px;
 
 
 .pak-destination{
-height: 500px;
+min-height: 400px;
+min-width: auto;
 
 display: flex;
 justify-content: space-around;
 align-items: center;
 border-radius: 20px;
+flex-wrap: wrap;
 
 }
 
 
 .p-img{
+    margin: 20px;
     height: 400px;
     width: 400px;
     /* border-style: solid;
     border-color: #ccc;
     border-radius: 10px; */
-    
+      
     position: relative;
 }
 
 .page-img{
-    height: 300px;
+    height: 330px;
     width: 400px;
+    border-radius: 20px;
+    transition: 0.3s;
 }
 
 .b-text{
@@ -352,7 +376,13 @@ border-radius: 20px;
     left: 20px;
 }
 
-.p-img:hover{
+ /* .p-img:hover{
     opacity: 85%;
     
+}  */
+
+.page-img:hover{
+    opacity: 80%;
+   
 }
+
